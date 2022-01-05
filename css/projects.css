@@ -36,7 +36,7 @@
 }
 
 .curve{
-    background-image: url('/assets/curvy_bg.png');
+    background-image: url('./assets/curvy_bg.png');
     width: 100%;
     background-position: center top;
     background-repeat: no-repeat;
