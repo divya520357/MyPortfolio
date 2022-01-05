@@ -1,0 +1,108 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one_liner{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-self: center;
+    margin-top: 14vh;
+    width: 70vw;;
+}
+
+.one_liner h2{
+    margin: 0%;
+    height: 17vh;
+}
+
+.first-line{
+    align-self: flex-start;
+}
+
+.second_line{
+    align-self: center;
+    padding-left: 20rem;
+}
+
+.one_word{
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 10rem;
+    font-weight: lighter;
+    margin: 0%;
+    color: #edc870;
+    padding-left: 30rem;
+    margin-bottom: 5rem;
+
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: -webkit-fill-available;
+    padding-bottom: 3rem;
+}
+
+.sperator{
+    background-color: #edc870;;
+    height:0.3vh;
+    width: 10vw;
+    border-radius: 50%;
+    margin: 0.5vw;
+    
+}
+.info h4{
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 5px 4px;
+}
+/* .general h4{
+    margin-bottom: 13px;
+} */
+
+.navi{
+    display: flex;
+    align-items: center;
+}
+
+.info img{
+    max-width: 7%;
+    height: auto;
+    opacity: 0.5;
+    margin:2%;
+}
+
+.general img{
+    width: 3%;
+    margin: auto 10px 2px 4px;
+    /* margin-left: 4px; */
+}
+
+.info a:link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.info a:hover{
+    text-decoration: none;
+    color: #edc870;
+}
+
+.info a:visited{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.795);
+}
+
+.location img{
+    margin-bottom:10px;
+}
+
+.gmail_link{
+    margin-top: 11px;
+}

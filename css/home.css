@@ -1,0 +1,130 @@
+/* intro */
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.name_underline{
+    background-color: #edc870;
+    height:0.5vh;
+    width: 10vw;
+}
+.display-pic img {
+    display: block;
+    margin:3rem 13rem 2rem 9rem;
+    width: 70%;
+}
+
+.text-intro{
+    padding: 2rem 3rem 2rem 5rem;
+}
+
+.name{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1.4px;
+    margin:0px; 
+    color: white;
+}
+
+.desc{
+    font-size:1.3rem;
+}
+
+/* skills */
+
+.skills h2{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 6%;
+    margin: 2%;
+    padding: 0rem 1rem;
+    color: rgb(15, 15, 15);
+    width: 25vw;
+    flex: 0 0 18.3%;
+}
+
+.card:hover{
+    background-color: rgba(94, 94, 94, 0.884);
+    color: rgba(255, 255, 255, 0.795);
+    transition: 0.4s;
+}
+
+.card h3{
+    font-size: 2.5rem;
+}
+
+.card p{
+    font-size:1.1rem;
+}
+.progress-bar {
+    width: 18vw;
+    height: 5px;
+    margin-top: 10px;
+    border: 1px solid #a1894f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(94, 94, 94, 0.884);
+}
+
+.percentage {
+    display: block;
+    height: 100%;
+    background-color: #edc870;
+    border-radius: 5px;
+}
+
+.cppprog{
+    width:50%
+}
+.htmlprog{
+    width:80%
+}
+.cssprog{
+    width: 70%;
+}
+.blenderprog{
+    width:70%
+}
+.jsprog{
+    width: 40%;
+}
+.psprog{
+    width: 60%;
+}
+.figmaprog{
+    width: 85%;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 50%;
+    zoom:90%;
+}
+
+.cssimg{
+    margin: 5% auto 15% ;
+    width: 70%;
+}
+
+.figmaimg{
+    width: 60%;
+    margin: auto;
+}
+
+

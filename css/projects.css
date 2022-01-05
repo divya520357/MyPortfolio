@@ -1,0 +1,139 @@
+.starting{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    justify-content: center;
+    background-color: #edc870;
+}
+
+
+.name_underline{
+    background-color: rgb(15, 15, 15);
+    height:0.5vh;
+    width: 10vw;
+}
+
+.page_intro{
+    font-family: 'El Messiri', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 1.4px;
+    margin:2.6rem 0rem 0rem 0rem; 
+    color: black;
+
+}
+
+.starting p{
+    font-size:1.3rem;
+    padding:0rem 20rem;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.884);
+    margin-bottom: 0%;
+}
+
+.greeting{
+    margin-top: 0px;
+}
+
+.curve{
+    background-image: url('/assets/curvy_bg.png');
+    width: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    /* height:19rem; */
+    /* padding-top: 10%; */
+    position: absolute;
+    background-size: 1600px 130px;
+    height: 130px;
+}
+
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3rem;
+}
+.sperator{
+    background-color: #edc870;;
+    height:0.3vh;
+    width: 80vw;
+    border-radius: 50%;
+    margin: 10vw;
+    
+}
+
+.left_side{
+    display: flex;
+    align-items: center;
+    
+}
+.left_image img{
+    width: 90%;
+    z-index: 1;
+    position:relative;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(94, 94, 94, 0.884);
+
+}
+
+.hover_big:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-out;
+}
+
+.project_writtten{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project_head{
+    font-size:4rem;
+}
+
+.project_desc{
+    font-size:1.4rem;
+}
+
+.visit_button{
+    background-color:#edc870 ;
+    width: 10vw;
+    height: 10%;
+    font-size: 1.8rem;
+    color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+}
+
+.project_writtten a:link{
+    text-decoration: none;
+}
+.project_writtten a:hover{
+    /* text-decoration: #aa9153; */
+    background-color: #aa9153;
+    transform: scale(1.6);
+    transition: 0.4s ease-out;
+    color: white;
+}
+.project_writtten a:visited{
+    text-decoration: none;
+}
+.range_finder{
+    width: 97vw;
+}
+.range_finder video{
+    border-radius: 100%;
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 0 10px rgb(10, 10, 10);
+}
+
+.range_finder video:hover{
+    transform: scale(1.1);
+    
+    transition: 0.4s ease-out;
+}
+
+.starbucks_clone{
+    width: 70vw;
+}
