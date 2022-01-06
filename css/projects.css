@@ -98,7 +98,7 @@
 .visit_button{
     background-color:#edc870 ;
     width: 10vw;
-    height: 10%;
+    height: auto;
     font-size: 1.8rem;
     color: rgb(15, 15, 15);
     display: flex;
